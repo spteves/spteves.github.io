@@ -1,0 +1,45 @@
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background: white;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: center;
+}
+
+.feature-bar {
+  display: flex;
+  gap: 40px;
+  padding: 20px 40px;
+  background: white;
+  border-radius: 30px;
+  box-shadow: 0 10px 12px rgba(0,0,0,0.1);
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  color:black;
+}
+.feature p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.feature:hover {
+   background-color: #004588;
+   border-radius: 10px;
+   color: white;
+   padding: 10px;
+  
+}
+
+
+
